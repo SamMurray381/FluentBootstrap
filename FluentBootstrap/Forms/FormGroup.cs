@@ -35,7 +35,7 @@ namespace FluentBootstrap.Forms
         public bool AutoColumns { get; set; }   // indicates if columns should automatically be generated if horizontal
 
         internal FormGroup(BootstrapHelper helper)
-            : base(helper, "div", Css.FormGroup)
+            : base(helper, "div", Css.FormGroupLg)
         {
             Icon = Icon.None;
             AutoColumns = true;
